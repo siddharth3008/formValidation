@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+body{
+    background-color: yellow;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 1rem;
+}
+.formdiv{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.forms{
+    padding: 100px;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    background-color:white;
+}
+input{
+    width: 300px;
+    height:40px;
+    border: 2px solid black;
+    font-weight: 2rem;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 6px;    
+}
+button{
+    height: 50px;
+    width: 300px;
+    font-weight: 2rem;
+    font-size: 1.2rem;
+    border-radius: 6px;   
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: coral;
+    cursor: pointer;
+}
+#formid{
+    height: 200px;
+    width: 300px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+/* forget */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#username {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 24px);
+    font-size: 16px;
+}
+
+.otp-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+
+#sendOtpBtn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 3rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Forgot Password</h2>
+        
+        <!-- Step 1: Enter Email or Username -->
+        <div id="step1">
+            <input type="text" id="username" placeholder="Enter Email or Username" required>
+            <button id="sendOtpBtn">Send OTP</button>
+        </div>
+
+        <!-- Step 2: Enter OTP -->
+        <div id="step2" style="display: none;">
+            <p>Enter the 4-digit OTP sent to your email.</p>
+            <div id="otpContainer"></div>
+            <button id="verifyOtpBtn">Verify OTP</button>
+            <p class="error"></p>
+        </div>
+
+        <!-- Step 3: New Password -->
+        <div id="step3" style="display: none;">
+            <input type="password" id="newPassword" placeholder="Enter New Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm New Password" required>
+            <button id="resetPasswordBtn">Reset Password</button>
+            <p class="error"></p>
+        </div>
+    </div>
+
+    <script src="forget.js"></script>
+</body>
+</html>
